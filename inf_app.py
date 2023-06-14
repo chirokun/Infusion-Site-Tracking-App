@@ -108,7 +108,7 @@ class InfusionSiteApp(tk.Tk):
 
         if not expiration_weeks.isdigit():
             # Handle invalid input
-            tk.messagebox.showerror("INvalid Input", "Please Enter a valid number of weeks.")
+            tk.messagebox.showerror("Invalid Input", "Please Enter a valid number of weeks.")
             return
         
         expiration_weeks = int(expiration_weeks)
